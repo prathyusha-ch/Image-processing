@@ -119,7 +119,6 @@ img.show()
 cv2.waitKey(0)
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104440723-8ce83800-5547-11eb-93cd-f1af53bb8ae8.png)
-7.Develop a program to find the neighbours of each element in the matrix.
 8 Write a program to find the sum of neighbour values in a matrix.
 import numpy as np
 def sumNeighbors(M,x,y):
@@ -155,6 +154,52 @@ Summed neighbors matrix:
  [[11. 19. 13.]
  [23. 40. 27.]
  [17. 31. 19.]]
+9.Write a C++ program to perform operator overloading.
+
+#include <iostream>
+
+using namespace std;
+int findsum(int n)
+{
+    
+     int  m1[10][10], m2[10][10], sum=0;
+
+   
+   for (int i = 0;i<n;i++ ) {
+     for (int j = 0;j < n;j++ ) {
+       cin>>m1[i][j];
+     }
+   }
+   
+   for (int i = 0;i<n;i++ ) {
+     for (int j = 0;j<n;j++ ) {
+      m2[i][j]=m1[i][j];
+     }
+   }
+
+   cout<<"Output: ";
+   for (int i = 0;i<n;i++ ) {
+      for (int j = 0;j<n;j++ ) {
+        sum+=m2[i][j];
+
+      }
+   }
+
+   return sum;
+}
+
+int main()
+
+{
+    int n=3;
+    cout<<findsum(n);
+    return 0;
+}
+
+Output:
+
+
+
 
 
 
