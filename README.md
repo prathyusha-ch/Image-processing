@@ -46,6 +46,24 @@ Output:
 3.Develop a program to find the sum and mean of a set of images. 
 a.	Create ‘n’ number of images and read them from the directory and perform the operations.
 listdir():It is used to get the list of all files and directories in the specified directory.
+import cv2
+import os
+path=('C:\img')
+imgs=[]
+files=os.listdir(path)
+for file in files:
+ fpath=path+"\\"+file
+ imgs.append(cv2.imread(fpath))
+ i=0
+ im=[]
+ for im in imgs:
+   im+=imgs[i]
+   i=i+1
+cv2.imshow("sum",im)
+mean=im/len(files)
+cv2.imshow("mean",mean) 
+cv2.waitKey(0) 
+Output:
 
 
 
