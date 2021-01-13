@@ -85,7 +85,23 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104436644-b5b9fe80-5542-11eb-825c-f0fb73fcbaed.png)
 ![image](https://user-images.githubusercontent.com/72489647/104436816-e4d07000-5542-11eb-8c45-3470004a8fc0.png)
 5.Develop a program to convert the given color image to different color spaces.
-color spacing:
+color spacing:color spaces are a way to represent the color channels present in the image that gives the image that particular hue.
+import cv2
+image=cv2.imread('pic3.jpg')
+cv2.imshow('Image',image)
+cv2.waitKey(0)
+yuv_img = cv2.cvtColor(image,cv2.COLOR_RGB2YUV)
+cv2.imshow('ychannel',yuv_img[:,:,0])
+cv2.imshow('uchannel',yuv_img[:,:,1])
+cv2.imshow('vchannel',yuv_img[:,:,2])
+cv2.waitKey(0)
+hsv_img = cv2.cvtColor(image,cv2.COLOR_RGB2HSV)
+cv2.imshow('hchannel',hsv_img[:,:,0])
+cv2.imshow('schannel',hsv_img[:,:,1])
+cv2.imshow('vchannel',hsv_img[:,:,2])
+cv2.waitKey(0)
+Output:
+
 
 
 
