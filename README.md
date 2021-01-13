@@ -129,7 +129,7 @@ def neighbors(radius,rowNumber,columnNumber):
           for i in range(rowNumber-1-radius,rowNumber+radius)]
 neighbors(2,2,2)
 Output:
-
+![image](https://user-images.githubusercontent.com/72489647/104471290-ae493280-55e0-11eb-8a78-90fcab2bb7cf.png)
 8 Write a program to find the sum of neighbour values in a matrix.
 import numpy as np
 def sumNeighbors(M,x,y):
