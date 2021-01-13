@@ -65,6 +65,8 @@ cv2.imshow("mean",mean)
 cv2.waitKey(0) 
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104435265-07618980-5541-11eb-83c0-301cbd068559.png)
+![image](https://user-images.githubusercontent.com/72489647/104435424-3841be80-5541-11eb-9f04-34126a5429f7.png)
+4.Develop a program to convert the color image to gray scale and binary image.
 
 
 
