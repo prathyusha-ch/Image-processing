@@ -108,3 +108,5 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104439171-aab49d80-5545-11eb-9741-71aa28e1534f.png)
 ![image](https://user-images.githubusercontent.com/72489647/104439335-d59ef180-5545-11eb-8cb9-98aed0bf7188.png)
 ![image](https://user-images.githubusercontent.com/72489647/104439462-fcf5be80-5545-11eb-8007-25e3ff5c473a.png)
+6.Develop a program to create an image from 2D array (generate an array of random size).
+2D array:Two-dimensional array is an array within an array.It is the type of array ,the position of an data element is referred by two indices instead of one.
