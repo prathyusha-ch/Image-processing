@@ -31,6 +31,7 @@ cv2.destroyAllwindows()
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104429834-e5fd9f00-553a-11eb-98e1-92087eae073c.png)
 ![image](https://user-images.githubusercontent.com/72489647/104430277-53113480-553b-11eb-8b21-85237a0fb184.png)
+Rotating an Image: The image rotation needs angle as parameter to get the image rotated.
 
 
 
