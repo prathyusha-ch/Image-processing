@@ -110,7 +110,7 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104439462-fcf5be80-5545-11eb-8007-25e3ff5c473a.png)
 6.Develop a program to create an image from 2D array (generate an array of random size).
 2D array:Two-dimensional array is an array within an array.It is the type of array ,the position of an data element is referred by two indices instead of one.
-import cv2
+import numpy as np
 from PIL import Image
 array=np.linspace(0,1,250*200)
 mat=np.reshape(array,(250,200))
