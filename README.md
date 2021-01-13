@@ -45,6 +45,7 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104432324-c2882380-553d-11eb-9de1-3209b82f6981.png)
 3.Develop a program to find the sum and mean of a set of images. 
 a.	Create ‘n’ number of images and read them from the directory and perform the operations.
+listdir():It is used to get the list of all files and directories in the specified directory.
 
 
 
