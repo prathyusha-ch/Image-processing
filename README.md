@@ -119,6 +119,17 @@ img.show()
 cv2.waitKey(0)
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104440723-8ce83800-5547-11eb-93cd-f1af53bb8ae8.png)
+import numpy as np
+x=np.array([[5,7,2],[2,9,3],[1,2,4]])
+print(x)
+def neighbors(radius,rowNumber,columnNumber):
+    return[[x[i][j]
+           if i>=0 and i<len(x) and j>=0 and j<len(x[0]) else 0
+           for j in range(columnNumber-1-radius,columnNumber+radius)]
+          for i in range(rowNumber-1-radius,rowNumber+radius)]
+neighbors(2,2,2)
+Output:
+
 8 Write a program to find the sum of neighbour values in a matrix.
 import numpy as np
 def sumNeighbors(M,x,y):
