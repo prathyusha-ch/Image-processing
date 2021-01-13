@@ -67,6 +67,21 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104435265-07618980-5541-11eb-83c0-301cbd068559.png)
 ![image](https://user-images.githubusercontent.com/72489647/104435424-3841be80-5541-11eb-9f04-34126a5429f7.png)
 4.Develop a program to convert the color image to gray scale and binary image.
+Grayscaling:It is the process of converting an image from other color spaces.Eg:RGB,CMYK,HSV,etc to shades of gray .It varies between complete black and complete white.
+Binary Image:It is the type of image where each pixel is black or white.Where 0 represents black and 1 represents white.
+import cv2
+image=cv2.imread('pic2.jpg')
+cv2.imshow('Image',image)
+cv2.waitKey(0)
+grayImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+cv2.imshow('gray',grayImage)
+cv2.waitKey(0)
+ret,binaryImage= cv2.threshold(image, 100, 150, cv2.THRESH_BINARY)
+cv2.imshow('binary',binaryImage)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+Output:
+
 
 
 
