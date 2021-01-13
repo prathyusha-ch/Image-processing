@@ -29,6 +29,7 @@ cv2.imshow('scaling',result)
 cv2.waitKey(0)
 cv2.destroyAllwindows()
 Output:
+![image](https://user-images.githubusercontent.com/72489647/104429834-e5fd9f00-553a-11eb-98e1-92087eae073c.png)
 
 
 
