@@ -11,5 +11,6 @@ cv2.imwrite('graying.jpg',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 Output:
+![image](https://user-images.githubusercontent.com/72489647/104427696-6cfd4800-5538-11eb-9bda-405c09955a56.png)
 
 
