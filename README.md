@@ -81,6 +81,7 @@ cv2.imshow('binary',binaryImage)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 Output:
+![image](https://user-images.githubusercontent.com/72489647/104436455-7ab7cb00-5542-11eb-88d5-84126740db81.png)
 
 
 
