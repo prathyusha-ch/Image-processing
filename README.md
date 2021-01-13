@@ -146,14 +146,7 @@ for i in range(M.shape[0]):
 print ("Original matrix:\n", M)
 print ("Summed neighbors matrix:\n", N)
 Output:
-Original matrix:
- [[1 2 3]
- [4 5 6]
- [7 8 9]]
-Summed neighbors matrix:
- [[11. 19. 13.]
- [23. 40. 27.]
- [17. 31. 19.]]
+
 9.Write a C++ program to perform operator overloading.
 
 #include <iostream>
@@ -197,6 +190,14 @@ int main()
 }
 
 Output:
+1 2 3
+4 5 6 
+7 8 9
+output:45
+
+
+
+
 
 
 
