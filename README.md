@@ -146,6 +146,7 @@ for i in range(M.shape[0]):
 print ("Original matrix:\n", M)
 print ("Summed neighbors matrix:\n", N)
 Output:
+![image](https://user-images.githubusercontent.com/72489647/104448468-0e44c800-5552-11eb-9c27-1040b4e8cc21.png)
 
 9.Write a C++ program to perform operator overloading.
 
