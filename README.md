@@ -15,6 +15,20 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104428096-e432dc00-5538-11eb-99a8-1267a228eefe.png)
 2.Develop a program to perform linear transformation of an image. 
 Scaling:It is the process of resizing a digital image.We can perform scaling on an image using resize() method.
+import cv2
+import numpy as np
+src=cv2.imread('pic2.jpg')
+img=cv2.imshow('Image',src)
+cv2.waitKey(0)
+scale_p=200
+width=int(src.shape[1]*scale_p/100)
+height=int(src.shape[0]*scale_p/100)
+dsize=(width,height)
+result=cv2.resize(src,dsize)
+cv2.imshow('scaling',result)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
+Output:
 
 
 
