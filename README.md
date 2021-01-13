@@ -13,5 +13,9 @@ cv2.destroyAllWindows()
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104427696-6cfd4800-5538-11eb-9bda-405c09955a56.png)
 ![image](https://user-images.githubusercontent.com/72489647/104428096-e432dc00-5538-11eb-99a8-1267a228eefe.png)
+2.Develop a program to perform linear transformation of an image. 
+Scaling:It is the process of resizing a digital image.We can perform scaling on an image using resize() method.
+
+
 
 
