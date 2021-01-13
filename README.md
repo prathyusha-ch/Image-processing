@@ -120,5 +120,7 @@ cv2.waitKey(0)
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104440723-8ce83800-5547-11eb-93cd-f1af53bb8ae8.png)
 7.Develop a program to find the neighbours of each element in the matrix.
+8 Write a program to find the sum of neighbour values in a matrix.
+
 
 
