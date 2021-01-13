@@ -101,6 +101,7 @@ cv2.imshow('schannel',hsv_img[:,:,1])
 cv2.imshow('vchannel',hsv_img[:,:,2])
 cv2.waitKey(0)
 Output:
+![image](https://user-images.githubusercontent.com/72489647/104438424-d5eabd00-5544-11eb-8e1a-453eca48dfaa.png)
 
 
 
