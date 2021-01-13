@@ -119,6 +119,7 @@ img.show()
 cv2.waitKey(0)
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/104440723-8ce83800-5547-11eb-93cd-f1af53bb8ae8.png)
+7.Develop a program to find the neighbours of each element in the matrix.
 import numpy as np
 x=np.array([[5,7,2],[2,9,3],[1,2,4]])
 print(x)
@@ -160,6 +161,7 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104448468-0e44c800-5552-11eb-9c27-1040b4e8cc21.png)
 
 9.Write a C++ program to perform operator overloading.
+void operator --():Overload the meaning of the -- operator.
 #include <iostream>
 using namespace std;
 class TestClass {
@@ -183,6 +185,8 @@ int main() {
 }
 Output:
 count: 2
+void operator ++():Overload the meaning of the ++ operator.
+#include <iostream>   
 #include <iostream>   
 using namespace std;
 class OperatorOverload {
@@ -206,22 +210,18 @@ int main() {
 }
 Output:
 The count is: 12
-
-
-
+Assignment operator overloading
 #include <iostream>
 using namespace std;
 
 int findsum(int n)
 {
-    
-     int m1[10][10], m2[10][10], sum=0;
+    int m1[10][10], m2[10][10], sum=0;
    cout << "Enter the elements of matrix: ";
    for (int i = 0;i<n;i++ ) {
      for (int j = 0;j < n;j++ ) {
        cin>>m1[i][j];
      }
-   
    }
    for (int i = 0;i<n;i++ ) {
      for (int j = 0;j<n;j++ ) {
