@@ -149,39 +149,82 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104448468-0e44c800-5552-11eb-9c27-1040b4e8cc21.png)
 
 9.Write a C++ program to perform operator overloading.
+#include <iostream>
+using namespace std;
+class TestClass {
+private:
+	int count;
+public:
+	TestClass() : count(5) {}
+	void operator --() {
+		count = count - 3;
+	}
+	void Display() { 
+
+		cout << "Count: " << count; }
+};
+
+int main() {
+	TestClass tc;
+	--tc;
+	tc.Display();
+	return 0;
+}
+Output:
+count: 2
+#include <iostream>   
+using namespace std;
+class OperatorOverload {
+private:
+	int x;
+
+public:
+	OperatorOverload() : x(10) {}
+	void operator ++() {
+		x = x + 2;
+	}
+	void Print() {
+		cout << "The Count is: " << x;
+		}
+};
+int main() {
+	OperatorOverload ov;
+	++ov;   
+	ov.Print();
+	return 0;
+}
+Output:
+The count is: 12
+
+
 
 #include <iostream>
-
 using namespace std;
+
 int findsum(int n)
 {
     
-     int  m1[10][10], m2[10][10], sum=0;
-
-   
+     int m1[10][10], m2[10][10], sum=0;
+   cout << "Enter the elements of matrix: ";
    for (int i = 0;i<n;i++ ) {
      for (int j = 0;j < n;j++ ) {
        cin>>m1[i][j];
      }
-   }
    
+   }
    for (int i = 0;i<n;i++ ) {
      for (int j = 0;j<n;j++ ) {
       m2[i][j]=m1[i][j];
      }
    }
-
-   cout<<"Output: ";
+   cout<<"Sum=";
    for (int i = 0;i<n;i++ ) {
       for (int j = 0;j<n;j++ ) {
         sum+=m2[i][j];
-
       }
    }
-
    return sum;
 }
-
 int main()
 
 {
@@ -189,12 +232,13 @@ int main()
     cout<<findsum(n);
     return 0;
 }
-
 Output:
+Enter the elements of matrix
 1 2 3
-4 5 6 
+4 5 6
 7 8 9
-output:45
+Sum=45
+
 
 
 
