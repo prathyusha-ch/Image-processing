@@ -85,7 +85,7 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/104436644-b5b9fe80-5542-11eb-825c-f0fb73fcbaed.png)
 ![image](https://user-images.githubusercontent.com/72489647/104436816-e4d07000-5542-11eb-8c45-3470004a8fc0.png)
 5.Develop a program to convert the given color image to different color spaces.
-color spacing:color spaces are a way to represent the color channels present in the image that gives the image that particular hue.
+color space:color spaces are a way to represent the color channels present in the image that gives the image that particular hue.
 import cv2
 image=cv2.imread('pic3.jpg')
 cv2.imshow('Image',image)
