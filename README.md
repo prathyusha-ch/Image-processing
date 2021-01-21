@@ -268,6 +268,7 @@ im=Image.open('abcd.jpg')
 im3=ImageEnhance.Color(im)
 im3.enhance(2.0).show()
 Output:
+![image](https://user-images.githubusercontent.com/72489647/105331380-3fdc1580-5b88-11eb-961d-0cb2bb40f4a1.png)
 
 
 
