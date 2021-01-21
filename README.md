@@ -299,7 +299,15 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/105333393-86cb0a80-5b8a-11eb-9e17-dce27d16a617.png)
 ![image](https://user-images.githubusercontent.com/72489647/105333520-b11cc800-5b8a-11eb-8b35-1ecfcaa9a72f.png)
 13.Develop a program to implement Power Law(Gamma)Transformation of an image.
-Power Law(Gamma)Transformation :
+Power Law(Gamma)Transformation :Power-law (gamma) transformations can be mathematically expressed as s = cr^{\gamma}. Gamma correction is important for displaying images on a screen correctly, to prevent bleaching or darkening of images when viewed from different types of monitors with different display settings.
+import cv2 
+import numpy as np 
+img = cv2.imread('abc.jpg') 
+for gamma in [0.1, 0.5, 1.2, 2.2]: 
+    gamma_corrected = np.array(255*(img / 255) ** gamma, dtype = 'uint8') 
+    cv2.imshow('gamma_transformed'+str(gamma)+'.jpg', gamma_corrected)
+Output:
+
 
     
 
