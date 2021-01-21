@@ -269,7 +269,8 @@ im3=ImageEnhance.Color(im)
 im3.enhance(2.0).show()
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/105331380-3fdc1580-5b88-11eb-961d-0cb2bb40f4a1.png)
-
+12.Develop a program to implement thresholding of an image.
+Image Thresholding:is a simple form of image segmentation.It is a way to create a binary image from a grayscale or full-color image. 
 
 
 
