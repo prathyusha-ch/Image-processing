@@ -260,6 +260,9 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 Output:
 ![image](https://user-images.githubusercontent.com/72489647/105329629-3356bd80-5b86-11eb-9ed2-86c92f8a5947.png)
+![image](https://user-images.githubusercontent.com/72489647/105329845-757fff00-5b86-11eb-894b-77f8626c454f.png)
+11.Develop a program to implement contrast enhancement of an image.
+Contrast Enhancement:is a process that makes the image features stand out more clearly by making optimal use of the colors available on the display or output device,Contrast manipulations involve changing the range of values in an image in order to increase contrast.
 
 
 
