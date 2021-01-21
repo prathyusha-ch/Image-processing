@@ -249,6 +249,8 @@ Enter the elements of matrix
 4 5 6
 7 8 9
 Sum=45
+10.Develop a program to implement negative transformation of an image.
+
 
 
 
