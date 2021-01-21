@@ -271,6 +271,12 @@ Output:
 ![image](https://user-images.githubusercontent.com/72489647/105331380-3fdc1580-5b88-11eb-961d-0cb2bb40f4a1.png)
 12.Develop a program to implement thresholding of an image.
 Image Thresholding:is a simple form of image segmentation.It is a way to create a binary image from a grayscale or full-color image. 
+cv2.THRESH_BINARY: If pixel intensity is greater than the set threshold, value set to 255, else set to 0 (black).
+cv2.THRESH_BINARY_INV: Inverted or Opposite case of cv2.THRESH_BINARY.
+cv.THRESH_TRUNC: If pixel intensity value is greater than threshold, it is truncated to the threshold. The pixel values are set to be the same as the threshold. All other values remain the same.
+cv.THRESH_TOZERO: Pixel intensity is set to 0, for all the pixels intensity, less than the threshold value.
+cv.THRESH_TOZERO_INV: Inverted or Opposite case of cv2.THRESH_TOZERO.
+
 
 
 
