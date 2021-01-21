@@ -250,6 +250,7 @@ Enter the elements of matrix
 7 8 9
 Sum=45
 10.Develop a program to implement negative transformation of an image.
+Negative Transformation:The second linear transformation is negative transformation,which is invert of identity transformation.In negative transformation, each value of the input image is subtracted from the L-1 and mapped onto the output image.
 
 
 
