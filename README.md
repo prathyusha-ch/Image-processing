@@ -251,6 +251,14 @@ Enter the elements of matrix
 Sum=45
 10.Develop a program to implement negative transformation of an image.
 Negative Transformation:The second linear transformation is negative transformation,which is invert of identity transformation.In negative transformation, each value of the input image is subtracted from the L-1 and mapped onto the output image.
+import cv2 
+image=cv2.imread('abc.jpg')
+cv2.imshow('Original',image)
+img_neg=255-image
+cv2.imshow('Negative',img_neg)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+Output:
 
 
 
